@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kelompok 1 Kemendagri - Charding 2025</title>
+  
+  <style>
+  
+  #typewriter-about {
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  color: #3d2e1e;
+  border-right: 2px solid rgba(61,46,30,0.8);
+  white-space: normal;
+  overflow: hidden;
+  animation: blinkAbout 0.8s infinite;
+  margin-bottom: 15px;
+}
+
+@keyframes blinkAbout {
+  50% { border-color: transparent; }
+}
+
+  #kesan-pesan {
+    scroll-margin-top: 2px;
+  }
+  #song {
+  scroll-margin-top: 100px;
+}
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .gradient-text {
+    background: linear-gradient(90deg, #ffffff, #f2f2f2, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 
+    0 0 10px rgba(255, 255, 255, 0.1),
+    0 0 20px rgba(255, 255, 255, 0.6),
+    0 0 30px rgba(255, 255, 255, 0.4);
+  animation: shine 4s ease-in-out infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position: -200%;
+  }
+  50% {
+    background-position: 200%;
+  }
+  100% {
+    background-position: -200%;
+  }
+}
+
+  @keyframes fadeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .fade-up {
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeUp 1.5s ease-out forwards;
+  }
+
+  .fade-up.delay-1 {
+    animation-delay: 0.3s;
+  }
+
+  .fade-up.delay-2 {
+    animation-delay: 0.6s;
+  }
+
+  .fade-up.delay-3 {
+    animation-delay: 0.9s;
+  }
+  
+  #typewriter {
+  white-space: normal;
+  border-right: 3px solid rgba(80, 50, 30, 0.8);
+  animation: blink 0.8s infinite;
+  font-family: 'Courier New', monospace;
+  font-size: 18px;
+  color: #3d2e1e;
+  line-height: 1.5;
+  word-spacing: 0px;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  transform: translateY(40px);
+  animation: fadeUp 1.5s ease-out forwards;
+}
+
+.song-section audio {
+  margin-top: 20px;
+  width: 80%;
+  max-width: 400px;
+}
+
+.song-section h2 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 2rem;
+  color: #3d2e1e;
+  margin-bottom: 10px;
+}
+
+.song-section p {
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  color: #3d2e1e;
+  margin-bottom: 15px;
+}
+
+.song-section audio {
+  margin-top: 10px;
+  width: 80%;
+  max-width: 400px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+
+  background-image: url('images/KEMENDAGRI_20251006.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #fff;
+  height: 100vh;
+  overflow-x: hidden;
+}
+  body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: -1;
+}
+
+.song-section {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(
+    rgba(255, 250, 245, 0.95),
+    rgba(250, 240, 230, 0.9)
+  ),
+  url('images/KEMENDAGRI_20251006.jpg') center/cover no-repeat;
+  color: #3d2e1e;
+}
+    nav {
+      position: fixed;
+      top: 0px;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(10px);
+      z-index: 999;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffe8f0;
+    }
+
+    .hero {
+      position: relative;
+      height: 100vh;
+      background-image: url('images/KEMENDAGRI_20251006_170228_0000.jpg');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45); 
+  z-index: -1;
+}
+
+nav {
+  text-align: center;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+nav a:hover {
+  color: #ffb6d5;
+}
+
+.hero {
+  position: relative;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.hero::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.6));
+  z-index: 1;
+}
+
+.tag {
+  color: #fff;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.hero h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  background: #ff5f8d;
+  padding: 6px 14px;
+  border-radius: 20px;
+  display: inline-block;
+  color: white;
+}
+
+.hero .buttons {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero .buttons a {
+  text-decoration: none;
+  background: white;
+  color: #333;
+  font-weight: 600;
+  padding: 10px 18px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+.hero .buttons a:hover {
+  background: #ffb6d5;
+  color: white;
+}
+
+section {
+  background: #fff;
+  color: #333;
+  border-radius: 25px 25px 0 0;
+  margin-top: -40px;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.kesan-pesan {
+  background: linear-gradient(
+      rgba(255, 245, 230, 0.6),
+      rgba(255, 245, 230, 0.6)
+    ),
+    url('images/94b158b3-fa9b-41db-a7e4-c28290f89354.jpeg') center/cover no-repeat fixed;
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.kesan-card {
+  background: linear-gradient (145deg,rgba(255, 255, 255, 0.75),
+  rgba(255, 250, 240, 0.85));
+  backdrop-filter: blur(15px);
+  border-radius: 25px;
+  box-shadow: 0 6px 30px rgba(0,0,0,0.25);
+  padding: 50px 40px;
+  max-width: 700px;
+  text-align: justify;
+  line-height: 1.8;
+  font-size: 18px;
+  font-family: 'Georgia', serif;
+}
+
+/* Gabungin background About & Song */
+.about-section,
+.song-section {
+  background: linear-gradient(
+      rgba(255, 245, 230, 0.75),
+      rgba(255, 245, 230, 0.75)
+    ),
+    url('images/94b158b3-fa9b-41db-a7e4-c28290f89354.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #3d2e1e;
+  min-height: 100vh;
+}
+
+/* Card transparan lembut */
+.about-card,
+.song-card {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(12px);
+  border-radius: 25px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  padding: 50px 30px;
+  max-width: 700px;
+  margin: 60px auto;
+}
+
+.kesan-card h2 {
+  text-align: center;
+  color: #4b3326;
+  font-size: 28px;
+  margin-bottom: 25px;
+  font-family: 'Times New Roman', serif;
+  letter-spacing: 1px;
+}
+
+.kesan-card p {
+  margin-bottom: 15px;
+  text-indent: 30px;
+}
+
+.about-section {
+  padding: 80px 20px;
+  background: 
+    linear-gradient(rgba(255, 250, 245, 0.75), rgba(250, 240, 230, 0.75)),
+    url('images/KEMENDAGRI_20251006.jpg') center / cover no-repeat; 
+  color: #3d2e1e;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-card {
+  background: rgba(255, 255, 255, 0.45);
+  border-radius: 25px;
+  padding: 40px 30px;
+  max-width: 650px;
+  width: 90%;
+  text-align: left; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12px);
+}
+
+.about-card h2 {
+  margin-bottom: 15px;
+  font-family: 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+.about-card p, .about-card li {
+  margin-bottom: 5px;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.about-card ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+footer {
+  background: #f5e9ff;
+  color: #333;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  border-top: 1px solid #e5ccff;
+}
+
+.song-section {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 250, 240, 0.85)),
+              url('images/KEMENDAGRI_20251006.jpg') center/cover no-repeat;
+  color: #ffffff;
+  font-family: 'Times New Roman', serif;
+  position: relative;
+  border-top: 1px solid rgba(100, 80, 60, 0.2);
+  border-bottom: 1px solid rgba(100, 80, 60, 0.2);
+}
+
+.song-card {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(12px);
+  border-radius: 25px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+  padding: 60px 40px;
+  max-width: 750px;
+  margin: 80px auto;
+  text-align: center;
+}
+
+.song-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', serif;
+  background: linear-gradient(90deg, #000, #000, #000, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.song-section p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.song-section audio {
+  margin-top: 20px;
+  width: 80%;
+  max-width: 400px;
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+  border-radius: 12px;
+}
+
+#typewriter-about {
+  font-family: "Courier New", monospace;
+  font-size: 1.2em;
+  white-space: pre-wrap;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+#typewriter-about.visible {
+  opacity: 1;
+}
+
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#kesan">Kesan Pesan</a>
+    <a href="#song">Song</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <span class="tag gradient-text fade-up delay-1">CHARDING 2025</span>
+      <h1 class="gradient-text fade-up delay-2">KELOMPOK 1 KEMENDAGRI</h1>
+      <div class="buttons fade-up delay-3">
+        <a href="#kesan-pesan">Kesan Pesan</a>
+        <a href="#song" id="music-btn">Song</a>
+      </div>
+  </section>
+
+  <section id="kesan-pesan" class="kesan-pesan">
+  <div class="kesan-card">
+    <h2>Kesan & Pesan</h2>
+    <p id="typewriter"></p>
+  </div>
+</section>
+
+<section class="about-section" id="about">
+  <div class="about-card">
+    <h2>About Us</h2>
+    <p id="typewriter-about"></p>
+    <p><strong>Pamong:</strong> Teh Ira & Kang Aji</p>
+    <p><strong>Ketua:</strong> Darrell Alexander Boreel</p>
+    <p><strong>Anggota:</strong></p>
+    <ul>
+      <li>Hana Nabila Khairunnisa (saya sendiri wkwkw)</li>
+      <li>Adzra Qisthy Syafira Gusti</li>
+      <li>Vania Santika Cahyono</li>
+      <li>Inta Safrina Tsaniah</li>
+      <li>Retno Syanira Puspa</li>
+      <li>Naila Ghina Putri T.</li>
+      <li>Rezqia Noverianty Rachma</li>
+      <li>Akhtar Isnaini Rustiandi</li>
+      <li>Argya Athayazka Kartiwa</li>
+    </ul>
+  </div>
+</section>
+
+  <section id="song" class="song-section">
+    <div class="song-card">
+  <h2>Kelompok 1</h2>
+  <p>Satu, satu, satu, selalu jadi nomor satu!</p>
+  <audio id="bg-music"controls>
+    <source src="music/HIVI_Teman Sejati.mp3" type="audio/mpeg">
+  </audio>
+</section>
+
+<button id="music-btn">🎵 Song</button>
+
+<script>
+  const music = document.getElementById("bg-music");
+  const songBtn = document.getElementById("music-btn");
+  let isPlaying = false;
+
+  songBtn.addEventListener("click", () => {
+    if (!isPlaying) {
+      music.play().then(() => {
+        songBtn.textContent = "⏸ Pause";
+      }).catch(err => console.log("Play gagal:", err));
+    } else {
+      music.pause();
+      songBtn.textContent = "🎵 Song";
+    }
+    isPlaying = !isPlaying;
+  });
+</script>
+
+  <footer>
+    <p>Kelompok 1 Kemendagri | Charding 2025</p>
+  </footer>
+
+<script>
+  const text =
+  `Teh ira dan Kang Aji tuh seru bangett, ramah, mampu membimbing mahasiswa baru dengan baik, selalu menemani di setiap rangkaian acara Charding. Pokoknya kehadiran pamong bikin lebih terarah dalam segala tindakan💕 Kita harus tetap akrab ya, Akang Teteh. GAK BOLEH ASINGGG. Semangat kuliahnya, Teh Ira dan Kang Aji! 🌷`;
+
+  let i = 0;
+  const speed = 40;
+
+  function typeWriter() {
+    if (i < text.length) {
+      document.getElementById("typewriter").innerHTML += text.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+  }
+
+  window.addEventListener("load", typeWriter);
+</script>
+
+<script>
+const textAbout = "Kelompok satu! Satu, satu, satu, selalu jadi nomor satu!";
+let j = 0;
+const speedAbout = 40;
+let isTyping = false; // buat ngecek lagi ngetik atau enggak
+
+function typeWriterAbout() {
+  const about = document.getElementById("typewriter-about");
+
+  if (j < textAbout.length) {
+    about.innerHTML += textAbout.charAt(j);
+    j++;
+    setTimeout(typeWriterAbout, speedAbout);
+  } else {
+    isTyping = false; // selesai ngetik
+  }
+}
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    const about = entry.target;
+    if (entry.isIntersecting && !isTyping) {
+      about.innerHTML = "";
+      about.classList.add("visible");
+      j = 0;
+      isTyping = true;
+      typeWriterAbout();
+    } else if (!entry.isIntersecting) {
+      about.innerHTML = "";
+      about.classList.remove("visible");
+      j = 0;
+      isTyping = false;
+    }
+  });
+}, {
+  rootMargin: "-120px 0px 0px 0px", // ini kompensasi tinggi navbar
+  threshold: 0.3
+});
+
+observer.observe(document.getElementById("typewriter-about"));
+
+</script>
+
+</body>
+</html>
